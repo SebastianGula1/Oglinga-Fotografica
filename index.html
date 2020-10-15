@@ -8,6 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./style/responsive-style.css">
 
     <title>Oglinda Fotografica</title>
 
@@ -15,10 +16,16 @@
 
 <body>
 
-    <!-- navigatie-->
+    <!---------------------------------------------------- nav --------------------------------------------------->
     <nav id="nav">
         <a href="#showcase" class="logo">
             <h1> Oglinda <span>Fotografică </span> </h1>
+        </a>
+        <a href="#" class="toggle-button">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+
         </a>
         <ul class="nav-links">
             <li><a href="#despre" class="nav-link">Despre</a></li>
@@ -29,18 +36,18 @@
         </ul>
     </nav>
 
-    <!-- showcase-->
+    <!--------------------------------------------------- showcase section ----------------------------------------->
     <header id="showcase">
-        <!-- butoane showcase-->
+        <!-- showcase buttons-->
         <div class="buttons">
             <a href="#pachete" class="button-pachete">Pachete</a>
-            <a href="#" class="button-contact">Contactează-ne!</a>
+            <a href="#contact" class="button-contact">Contactează-ne!</a>
         </div>
 
 
     </header>
     <main>
-        <!-- Sectiunea despre-->
+        <!----------------------------------------------- About section ---------------------------------------------->
         <section id="despre">
             <div class="box-1">
                 <h1> Despre noi</h1>
@@ -55,7 +62,7 @@
             </div>
 
         </section>
-        <!-- Sectiunea recomandarii-->
+        <!----------------------------------------------- Recommandation section --------------------------------------->
         <section id="Recomandare">
             <div class="box-3">
                 <div class="header">
@@ -65,7 +72,7 @@
                 <div class="recomandation-container">
                     <div class="item-1">
                         <div class="header-text">
-                            <h1 id="Profesionalismul"> Profesionalismul</h1>
+                             Profesionalismul
                         </div>
                         <div class="main-text">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus dicta, accusamus
@@ -78,7 +85,7 @@
                     </div>
                     <div class="item-2">
                         <div class="header-text">
-                            <h1 id="Implicarea"> Implicarea</h1>
+                             Implicarea
                         </div>
                         <div class="main-text">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus dicta, accusamus
@@ -90,7 +97,7 @@
                     </div>
                     <div class="item-3">
                         <div class="header-text">
-                            <h1> Magicul</h1>
+                             Magicul
                         </div>
                         <div class="main-text">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus dicta, accusamus
@@ -103,7 +110,7 @@
                 </div>
             </div>
         </section>
-        <!-- Sectiunea serviciilor si pachetelor de oferte-->
+        <!------------------------------------------------ Services section ------------------------------------->
         <section id="servicii">
             <div class="box-4">
                 <div class="services-header">
@@ -172,7 +179,7 @@
             </div>
 
         </section>
-        <!-- Pachete-->
+        <!------------------------------------------------ Packets Section ------------------------------->
         <section id="pachete">
             <div class="box-5">
                 <div class="pachete-header">
@@ -187,7 +194,7 @@
             </div>
 
             <div class="pachete-container-row-1">
-                <!-- Pachet 3 ore-->
+                <!--  3 hours-->
                 <div class="item-3-ore">
                     <div class="pachete-item-header">
                         Pachet 3 ore
@@ -223,7 +230,7 @@
                         </ul>
                     </div>
                 </div>
-                <!-- Pachet 5 ore-->
+                <!--  5 hours-->
                 <div class="item-5-ore">
                     <div class="pachete-item-header">
                         Pachet 5 ore
@@ -262,7 +269,7 @@
                         </ul>
                     </div>
                 </div>
-                <!--  Pachet 7 ore-->
+                <!-- 7 hours -->
                 <div class="item-7-ore">
                     <div class="pachete-item-header">
                         Pachet 7 ore
@@ -309,7 +316,7 @@
 
             </div>
             <div class="pachete-container-row-2">
-                <!-- Pachet The Magic-->
+                <!-- The Magic-->
                 <div class="item-the-magic">
                     <div class="The-Magic-item-header">
                         Pachetul THE MAGIC
@@ -330,7 +337,7 @@
                 </div>
             </div>
         </section>
-        <!-- Galerie-->
+        <!------------------------------------------ Gallery Section --------------------------------------------------------->
         <section id="galerie">
             <div class="box-6">
                 <div class="galerie-header">
@@ -341,112 +348,112 @@
                         evenimentul tău, te invităm să vizionezi galeria cu unele poze realizate de-a lungul timpului.
                     </p>
                 </div>
-                <div class="galerieParinte">
+                <div class="galerie-container">
 
                     <div class="imgParentOverlay" style="display: none;">
-                        <span class="close" onclick="closeModalFoto()">×</span>
+                        <span class="close" onclick="closePhotoButton()">×</span>
                         <img class="imgOverlay" src="">
                         <img class="imgOverlayShadow" src="">
-                        <a class="prev" onclick="plusSlidesFoto(-1)">❮</a>
-                        <a class="next" onclick="plusSlidesFoto(1)">❯</a>
+                        <a class="prev" onclick="nextSlide(-1)">❮</a>
+                        <a class="next" onclick="nextSlide(1)">❯</a>
                     </div>
 
                     <div id="RowGallery" class="galerie">
 
-                        <div class="imgGuideParent" onclick="openModalFoto(); currentSlideFoto(0)">
+                        <div class="imgGuideParent" onclick="openPhotoFunction(); currentPhotoSlide(0)">
                             <div class="imgGuide">
                                 <img class="image" src="./images/Galerie/img-1.jpg" data-srcset=","
                                     data-src="./images/Galerie/img-1.jpg" srcset=",">
                             </div>
                         </div>
 
-                        <div class="imgGuideParent" onclick="openModalFoto(); currentSlideFoto(1)">
+                        <div class="imgGuideParent" onclick="openPhotoFunction(); currentPhotoSlide(1)">
                             <div class="imgGuide">
                                 <img class="image" src="./images/Galerie/img-2.jpg" data-srcset=","
                                     data-src="./images/Galerie/img-2.jpg" srcset=",">
                             </div>
                         </div>
 
-                        <div class="imgGuideParent" onclick="openModalFoto(); currentSlideFoto(2)">
+                        <div class="imgGuideParent" onclick="openPhotoFunction(); currentPhotoSlide(2)">
                             <div class="imgGuide">
                                 <img class="image" src="./images/Galerie/img-3.jpg" data-srcset=","
                                     data-src="./images/Galerie/img-3.jpg" srcset=",">
                             </div>
                         </div>
 
-                        <div class="imgGuideParent" onclick="openModalFoto(); currentSlideFoto(3)">
+                        <div class="imgGuideParent" onclick="openPhotoFunction(); currentPhotoSlide(3)">
                             <div class="imgGuide">
                                 <img class="image" src="./images/Galerie/img-4.jpg" data-srcset=","
                                     data-src="./images/Galerie/img-4.jpg" srcset=",">
                             </div>
                         </div>
 
-                        <div class="imgGuideParent" onclick="openModalFoto(); currentSlideFoto(4)">
+                        <div class="imgGuideParent" onclick="openPhotoFunction(); currentPhotoSlide(4)">
                             <div class="imgGuide">
                                 <img class="image" src="./images/Galerie/img-5.jpg" data-srcset=","
                                     data-src="./images/Galerie/img-5.jpg" srcset=",">
                             </div>
                         </div>
 
-                        <div class="imgGuideParent" onclick="openModalFoto(); currentSlideFoto(5)">
+                        <div class="imgGuideParent" onclick="openPhotoFunction(); currentPhotoSlide(5)">
                             <div class="imgGuide">
                                 <img class="image" src="./images/Galerie/img-6.jpg" data-srcset=","
                                     data-src="./images/Galerie/img-6.jpg" srcset=",">
                             </div>
                         </div>
 
-                        <div class="imgGuideParent" onclick="openModalFoto(); currentSlideFoto(6)">
+                        <div class="imgGuideParent" onclick="openPhotoFunction(); currentPhotoSlide(6)">
                             <div class="imgGuide">
                                 <img class="image" src="./images/Galerie/img-7.jpg" data-srcset=","
                                     data-src="./images/Galerie/img-7.jpg" srcset=",">
                             </div>
                         </div>
 
-                        <div class="imgGuideParent" onclick="openModalFoto(); currentSlideFoto(7)">
+                        <div class="imgGuideParent" onclick="openPhotoFunction(); currentPhotoSlide(7)">
                             <div class="imgGuide">
                                 <img class="image" src="./images/Galerie/img-8.jpg" data-srcset=","
                                     data-src="./images/Galerie/img-8.jpg" srcset=",">
                             </div>
                         </div>
 
-                        <div class="imgGuideParent" onclick="openModalFoto(); currentSlideFoto(8)">
+                        <div class="imgGuideParent" onclick="openPhotoFunction(); currentPhotoSlide(8)">
                             <div class="imgGuide">
                                 <img class="image" src="./images/Galerie/img-9.jpg" data-srcset=","
                                     data-src="./images/Galerie/img-9.jpg" srcset=",">
                             </div>
                         </div>
 
-                        <div class="imgGuideParent" onclick="openModalFoto(); currentSlideFoto(9)">
+                        <div class="imgGuideParent" onclick="openPhotoFunction(); currentPhotoSlide(9)">
                             <div class="imgGuide">
                                 <img class="image" src="./images/Galerie/img-10.jpg" data-srcset=","
                                     data-src="./images/Galerie/img-10.jpg" srcset=",">
                             </div>
                         </div>
-                        <div class="imgGuideParent" onclick="openModalFoto(); currentSlideFoto(10)">
+                        <div class="imgGuideParent" onclick="openPhotoFunction(); currentPhotoSlide(10)">
                             <div class="imgGuide">
                                 <img class="image" src="./images/Galerie/img-11.jpg" data-srcset=","
                                     data-src="./images/Galerie/img-11.jpg" srcset=",">
                             </div>
                         </div>
-                        <div class="imgGuideParent" onclick="openModalFoto(); currentSlideFoto(11)">
+                        <div class="imgGuideParent" onclick="openPhotoFunction(); currentPhotoSlide(11)">
                             <div class="imgGuide">
                                 <img class="image" src="./images/Galerie/img-12.jpg" data-srcset=","
                                     data-src="./images/Galerie/img-12.jpg" srcset=",">
                             </div>
                         </div>
-                        <div class="imgGuideParent" onclick="openModalFoto(); currentSlideFoto(12)">
+                        <div class="imgGuideParent" onclick="openPhotoFunction(); currentPhotoSlide(12)">
                             <div class="imgGuide">
                                 <img class="image" src="./images/Galerie/img-13.jpg" data-srcset=","
                                     data-src="./images/Galerie/img-13.jpg" srcset=",">
                             </div>
                         </div>
-                        <div class="imgGuideParent" onclick="openModalFoto(); currentSlideFoto(13)">
+                        <div class="imgGuideParent" onclick="openPhotoFunction(); currentPhotoSlide(13)">
                             <div class="imgGuide">
                                 <img class="image" src="./images/Galerie/img-14.jpg" data-srcset=","
                                     data-src="./images/Galerie/img-14.jpg" srcset=",">
                             </div>
                         </div>
-                        <div class="imgGuideParent" onclick="openModalFoto(); currentSlideFoto(14)">
+                        <div class="imgGuideParent" onclick="openPhotoFunction(); currentPhotoSlide(14)">
                             <div class="imgGuide">
                                 <img class="image" src="./images/Galerie/img-15.jpg" data-srcset=","
                                     data-src="./images/Galerie/img-15.jpg" srcset=",">
@@ -458,7 +465,7 @@
             </div>
 
         </section>
-        <!--------------------------------------------- Sectiunea recenziilor ---------------------------------->
+        <!--------------------------------------------- Review Section ---------------------------------->
         <section id="recenzii">
             <div class="box-7">
                 <div class="recenzii-header">
@@ -545,7 +552,7 @@
                 </div>
             </div>
         </section>
-        <!------------------------------------  Sectiunea contactului  --------------------------->
+        <!------------------------------------  Contact Section  --------------------------->
         <section id="contact">
             <div class="box-8">
                 <div class="contact-container">
@@ -566,7 +573,7 @@
             </div>
 
         </section>
-
+        <!------------------------------------ Footer Section ------------------------------------>
         <section id="footer">
 
             <div class="footer-container">
@@ -576,7 +583,7 @@
                 </div>
 
                 <div class="col-2">
-                    <h1> Contactează-ne!</h1>
+                    <h1> Contact</h1>
                     <p> <i class="fa fa-map-marker"></i> Strada Mărășești nr.15, Suceava 720175</p>
                     <p> <i class="fa fa-envelope"></i> contact@oglindafotografica.ro </p>
                     <p> <i class="fa fa-phone"></i> 0749584626</p> 
@@ -584,31 +591,23 @@
 
                 <div class="col-3">
                     <h1> Află mai multe</h1>
-                   <p> Politică de confidențialitate</p>
-                   <p> Politică cookie</p>
-                   <p> Designed by GGS</p>
+                  <a href="#"><p> Politică de confidențialitate</p></a> 
+                  <a href="#"><p> Politică cookie</p></a> 
+                  <a href="#"><p> Designed by GGS</p></a> 
 
                 </div>
-
-
-
             </div>
-
-
         </section>
-
     </main>
-
-
-
+    <!------------------------------------------ JS SCRIPT --------------------------------------->
     <script src="./Js/nav-slider.js"></script>
     <script src="./Js/about-pics-slider.js"></script>
     <script src="./Js/smooth-slider.js"></script>
     <script>
         var scroll = new SmoothScroll('a[href*="#"]');
     </script>
-    <script src="./Js/lightbox-plus-jquery.min.js"></script>
     <script src="./Js/gallery-show.js"></script>
+    <script src="./Js/hamburger-slider.js"></script>
 
 </body>
 

@@ -1,0 +1,125 @@
+@media only screen and (max-width: 1650px) {
+    .header-text {
+       
+       font-size: 40px;
+        
+    }
+    
+    .main-text{
+        font-size: 23px;
+    }
+
+}
+@media only screen and (max-width: 1400px) {
+    .header-text {
+       
+       font-size: 35px;
+        
+    }
+    
+    
+
+}
+
+@media only screen and (max-width: 1250px) {
+    .recomandation-container {
+        flex-wrap: wrap;
+     }
+    
+    
+
+}
+
+/* phones max 600px */
+@media only screen and (max-width: 600px) 
+{ 
+    
+    nav{
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .toggle-button{
+        display: flex;
+    }
+
+    .nav-links{
+        display: none;
+        width: 100%;
+    }
+    
+    .nav-links li{
+       display: block;
+       text-align: center;
+       margin:10px;
+    }
+    .nav-links li:hover{
+        background-color:#F5F5F5;
+    }
+    .nav-link:hover::after {
+        width: 0%;
+        transition: width .3s;
+    }
+    .nav-links.active{
+        display: flex;
+    }
+    .logo{
+        display: flex;
+        justify-content: flex-start;
+        margin-left: 1rem;
+    }
+   .buttons{
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: center;
+   }
+    #showcase .button-pachete {
+        font-size: 15px;
+        margin:10px;
+        
+    }
+    
+    #showcase .button-contact {
+        font-size: 15px;
+        margin:10px;
+        
+    }
+    #despre{
+        flex-wrap: wrap;
+    }
+
+    #despre h1 {
+        font-size: 30px;
+        text-align: center;       
+    }
+
+    #despre img{
+        margin:   50px 0px 0px 0px;
+    }
+    
+    #despre p {
+        font-size: 15px;
+        text-align: center;
+    }
+    
+    .header h1{
+        font-size: 30px;
+    }
+    .header-text {
+       
+        font-size: 18px;
+         
+     }
+
+    .main-text{
+        font-size: 15px;
+    }
+    .galerie-container {
+        flex-wrap: wrap;
+    }
+
+
+    .footer-container{
+        flex-wrap: wrap;
+    }
+}

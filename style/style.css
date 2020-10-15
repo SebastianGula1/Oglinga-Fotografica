@@ -21,7 +21,6 @@ nav {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
-    align-items: center;
     background-color: #ffffff;
     font-family: 'Dancing Script', cursive;
     transition: 0.4s all ease;
@@ -55,6 +54,11 @@ a {
     right: 10px;
 }
 
+
+.nav-links ul{
+    display: flex;
+}
+
 .nav-links li {
     display: inline-block;
     padding: 0px 20px;
@@ -62,6 +66,24 @@ a {
 
 .nav-link a:hover {
     background: black;
+}
+
+.toggle-button{
+    position: absolute;
+    top: 2.5rem;
+    right:1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+.toggle-button .bar{
+    height: 3px;
+    width: 100%;
+    background-color: black;
+    border-radius: 10px;
 }
 
 /* nav-link animation */
@@ -222,7 +244,7 @@ a {
 .header-text {
     display: flex;
     justify-content: center;
-    font-size: 35px;
+    font-size: 50px;
     font-weight: 600;
     color: #ffffff;
     line-height: 1.4em;
@@ -491,10 +513,11 @@ a {
     width: 100%;
     margin: 150px 0px 0px 0px;
     padding: 50px 50px 50px 50px;
+    
    
 }
 
-.galerieParinte {
+.galerie-container {
     display: flex;
     flex-flow: column;
     align-items: center;
@@ -908,11 +931,12 @@ a {
     margin:15px;
 }
 
-
 #footer .fa{
     color:black;
     font-size: 25px;
     margin: -5px 0px -5px 0px;
 }
+
+
 
 

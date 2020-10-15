@@ -1,24 +1,24 @@
-  function openModalFoto() {
+  function openPhotoFunction() {
     document.querySelector(".imgParentOverlay").style.display = "block";
   }
 
-  function closeModalFoto() {
+  function closePhotoButton() {
     document.querySelector(".imgParentOverlay").style.display = "none";
   }
 
   var slideIndex = 0;
   showSlidesFoto(slideIndex);
 
-  function plusSlidesFoto(n) {
+  function nextSlide(n) {
     showSlidesFoto((slideIndex += n));
   }
 
-  function currentSlideFoto(n) {
+  function currentPhotoSlide(n) {
     showSlidesFoto((slideIndex = n));
   }
 
   function showSlidesFoto(n) {
-    var i;
+    
     var slides = document.querySelectorAll(".imgGuideParent img");
     var imgOverlay = document.querySelector(".imgOverlay");
     var imgOverlayShadow = document.querySelector(".imgOverlayShadow");
