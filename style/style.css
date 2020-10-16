@@ -388,7 +388,6 @@ nav span {
 .item-5-ore {
     border-radius: 25px 25px 25px 25px;
     background: linear-gradient(180deg, #81cbda 0%, #5cd5ed 100%);
-    ;
     overflow: hidden;
     border-top-color: #69e284;
     box-shadow: 0px 18px 18px 0px rgba(0, 0, 0, 0.4);
@@ -398,7 +397,6 @@ nav span {
 .item-7-ore {
     border-radius: 25px 25px 25px 25px;
     background: linear-gradient(180deg, #945ced 0%, #7520ff 100%);
-    ;
     overflow: hidden;
     border-top-color: #69e284;
     box-shadow: 0px 18px 18px 0px rgba(0, 0, 0, 0.4);
@@ -408,7 +406,7 @@ nav span {
 .item-the-magic {
     border-radius: 25px 25px 25px 25px;
     background: linear-gradient(180deg, #ffb347 0%, #f5bc83 100%);
-    ;
+  
     overflow: hidden;
     border-top-color: #69e284;
     box-shadow: 0px 18px 18px 0px rgba(0, 0, 0, 0.4);

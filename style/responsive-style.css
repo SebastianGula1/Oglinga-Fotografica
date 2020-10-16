@@ -1,39 +1,9 @@
-@media only screen and (max-width: 1650px) {
-    .header-text {
-       
-       font-size: 40px;
-        
-    }
-    
-    .main-text{
-        font-size: 23px;
-    }
 
-}
-@media only screen and (max-width: 1400px) {
-    .header-text {
-       
-       font-size: 35px;
-        
-    }
-    
-    
-
-}
-
-@media only screen and (max-width: 1250px) {
-    .recomandation-container {
-        flex-wrap: wrap;
-     }
-    
-    
-
-}
 
 /* phones max 600px */
-@media only screen and (max-width: 600px) 
-{ 
-    
+@media only screen and (max-width: 600px) {
+
+    /* nav */
     .navbar {
         flex-direction: column;
         align-items: flex-start;
@@ -42,7 +12,7 @@
 
     .toggle-button {
         display: flex;
-        
+
     }
 
     .navbar-links {
@@ -66,68 +36,184 @@
     .navbar-links.active {
         display: flex;
     }
+
     .navbar-links li:hover {
         background-color: #F5F5F5;
     }
+
     .nav-link:hover::after {
         width: 0%;
-        
+
     }
 
+    /* showcase buttons */
 
+    .buttons {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 
-   .buttons{
-       display: flex;
-       flex-wrap: wrap;
-       justify-content: center;
-   }
     #showcase .button-pachete {
         font-size: 15px;
-        margin:10px;
-        
+        margin: 10px;
+
     }
-    
+
     #showcase .button-contact {
         font-size: 15px;
-        margin:10px;
-        
+        margin: 10px;
+
     }
-    #despre{
+
+    /* about section */
+    #despre {
         flex-wrap: wrap;
     }
 
     #despre h1 {
         font-size: 30px;
-        text-align: center;       
+        text-align: center;
     }
 
-    #despre img{
-        margin:   50px 0px 0px 0px;
+    #despre img {
+        margin: 50px 0px 0px 0px;
     }
-    
+
     #despre p {
         font-size: 15px;
         text-align: center;
+        padding: 25px 0px 0px 0px;
     }
-    
-    .header h1{
+
+    /* recommandation section */
+    #Recomandare {
+        padding: 80px 0px 0px 0px;
+        margin: 60px 0px 0px 0px;
+    }
+
+    .header h1 {
         font-size: 30px;
     }
-    .header-text {
-       
-        font-size: 18px;
-         
-     }
 
-    .main-text{
+    .header-text {
+
+        font-size: 18px;
+
+    }
+
+    .main-text {
         font-size: 15px;
     }
-    .galerie-container {
+    .recomandation-container {
         flex-wrap: wrap;
     }
 
+    .item-1,
+    .item-2,
+    .item-3 {
+        min-width: 200px;
+    }
 
-    .footer-container{
+    /* services section */
+    #servicii {
+        margin: 60px 0px 0px 0px;
+    }
+
+    .services-header h1 {
+        font-size: 35px;
+        color: #ff8c00;
+    }
+
+    .text-servicii {
+        font-size: 15px;
+        text-align: center;
+        align-items: center;
+        margin: 30px 0px 0px 0px;
+
+    }
+
+    .text-servicii p {
+        width: 88%;
+
+    }
+
+    .icons-header h1 {
+        font-size: 20px;
+    }
+
+    #servicii p {
+        max-width: 400px;
+    }
+
+    .balon-1 {
+        display: none;
+    }
+
+    .balon-2 {
+        display: none;
+    }
+
+    .item-nunta,
+    .item-botez,
+    .item-aniversare {
+        margin: 0px 15px 0px 15px;
+    }
+
+    .services-container-row-1,
+    .services-container-row-2 {
+        padding: 40px 0px 0px 0px;
+    }
+
+    /* packets section*/
+    #pachete{
+        margin: 80px 0px 0px 0px;
+    }
+    #pachete p{
+        margin:30px 0px 0px 0px;
+    }
+
+    .pachete-header h1{
+        font-size: 35px;
+        text-align: center;
+        color: #ff8c00;
+        line-height: 1.2em;
+    }
+    .pachete-item-header {
+        font-size: 25px;
+        margin: 40px 40px 40px 40px;
+    }
+    .pachete-container-row-1{
+        padding:40px 0px 0px 0px;
+    }
+    .pachete-main-list{
+        font-size: 15px;
+    }
+    .The-Magic-item-header {
+        font-size: 25px;
+        margin: 0px;
+        padding: 70px 0px 0px 0px;
+    }
+    .The-Magic-Text {
+        font-size: 15px;
+        margin:15px 10px 10px 10px;
+        padding: 0px 15px 15px 15px;
+    }
+    .The-Magic-main-list {
+        
+        margin: 0px 0px 20px 0px;
+    }
+    .item-the-magic{
+        margin:0px 30px 0px 30px;
+    }
+    /* gallery */
+    .galerie-container {
+        flex-wrap: wrap;
+    }
+    
+
+    /*footer */
+    .footer-container {
         flex-wrap: wrap;
     }
 }
