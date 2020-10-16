@@ -3,8 +3,10 @@ window.onscroll = function () {
   scrollFunction()
 };
 
+const navbar = document.getElementById("nav")
+
 function scrollFunction() {
-  if (document.body.scrollTop >= 120 || document.documentElement.scrollTop >= 120) {
+  if (document.body.scrollTop >= 120 || document.documentElement.scrollTop >= 120 || navbar.clientWidth <=600) {
     document.getElementById("nav").style.padding = "10px 10px";
   } else if (document.body.scrollTop <= 60 || document.documentElement.scrollTop <= 60) {
     document.getElementById("nav").style.padding = "30px 10px";
