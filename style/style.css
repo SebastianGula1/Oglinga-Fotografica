@@ -885,6 +885,9 @@ nav span {
     align-content: center;
 
 }
+#footer a{
+    text-decoration: none;
+}
 .col-1 img{
     width:150px;
     height: 100px;
