@@ -279,8 +279,9 @@
 
 /* landscape tablets max 761px */
 @media only screen and (min-width: 600px) and (max-width: 760px) {
-     /* about section */
-     #despre {
+
+    /* about section */
+    #despre {
         flex-wrap: wrap;
     }
 
@@ -327,7 +328,7 @@
     /* services section */
     .services-header h1 {
         font-size: 50px;
-        color:  #ffb347;
+        color: #ffb347;
     }
 
     .text-servicii {
@@ -342,6 +343,7 @@
         width: 88%;
 
     }
+
     .balon-1 {
         display: none;
     }
@@ -349,14 +351,17 @@
     .balon-2 {
         display: none;
     }
+
     .icons-header h1 {
         font-size: 27px;
     }
+
     .pachete-header h1 {
         font-size: 50px;
         text-align: center;
         line-height: 1.2em;
     }
+
     #pachete p {
         margin: 30px 0px 0px 0px;
     }
@@ -365,9 +370,540 @@
     .item-the-magic {
         margin: 0px 40px 0px 40px;
     }
+
     .The-Magic-Text {
-        
+
         margin: 15px 10px 10px 10px;
         padding: 0px 15px 15px 15px;
     }
+
+    /* Galery section */
+    #galerie {
+        margin: 100px 0px 0px 0px;
+
+
+    }
+
+    .galerie-container {
+
+        padding: 110px 0px 40px 0px;
+    }
+
+    .galerie-header h1 {
+        font-size: 55px;
+    }
+
+    /* Reviews section */
+
+    .recenzii-header h1 {
+        font-size: 50px;
+
+    }
+
+    .col-1 p {
+        font-size: 15px;
+    }
+
+    .col-2 h1,
+    .col-3 h1 {
+        font-size: 18px;
+
+
+    }
+
+    .col-2,
+    .col-3 p {
+        font-size: 14px;
+    }
+
+    .col-3 p {
+        padding-top: 9px;
+    }
+}
+
+/* landscape tablets max 990px */
+@media only screen and (min-width: 761px) and (max-width: 990px) {
+
+    /* Nav */
+    .brand-title {
+
+        font-size: 20px;
+
+    }
+
+    .navbar-links li a {
+
+        font-size: 23px;
+
+
+    }
+
+    /* about section */
+    #despre {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #despre h1 {
+        font-size: 50px;
+        text-align: center;
+    }
+
+    #despre img {
+        margin: 50px 0px 0px 0px;
+
+    }
+
+    #despre p {
+        font-size: 20px;
+        text-align: center;
+        padding: 25px 0px 0px 0px;
+    }
+
+    /* recommandation section */
+
+    #Recomandare {
+        padding: 80px 0px 80px 0px;
+        margin: 60px 0px 0px 0px;
+    }
+
+    .header h1 {
+        font-size: 45px;
+    }
+
+    .header-text {
+
+        font-size: 30px;
+
+    }
+
+    .main-text {
+        font-size: 20px;
+    }
+
+    .recomandation-container {
+        flex-wrap: wrap;
+    }
+
+    /* services section */
+    .services-header h1 {
+        font-size: 60px;
+        color: #ffb347;
+    }
+
+    .text-servicii {
+        font-size: 20px;
+        text-align: center;
+        align-items: center;
+        margin: 30px 0px 0px 0px;
+
+    }
+
+    .text-servicii p {
+        width: 88%;
+
+    }
+
+    .balon-1 {
+        opacity: 0.3;
+    }
+
+    .balon-2 {
+        opacity: 0.3;
+    }
+
+    /* Packets section */
+    .pachete-header h1 {
+        font-size: 55px;
+        text-align: center;
+        line-height: 1.2em;
+    }
+
+    #pachete p {
+        margin: 30px 0px 0px 0px;
+    }
+
+    /* The Magic */
+    .item-the-magic {
+        margin: 0px 80px 0px 80px;
+    }
+
+    .The-Magic-Text {
+
+        margin: 15px 10px 10px 10px;
+        padding: 0px 15px 15px 15px;
+    }
+
+    /* Reviews section */
+
+    .recenzii-header h1 {
+        font-size: 50px;
+
+    }
+
+    .col-1 p {
+        font-size: 15px;
+    }
+
+    .col-2 h1,
+    .col-3 h1 {
+        font-size: 18px;
+
+
+    }
+
+    .col-2,
+    .col-3 p {
+        font-size: 14px;
+    }
+
+    .col-3 p {
+        padding-top: 10px;
+    }
+
+}
+
+/* small laptops  max 1350px */
+@media only screen and (min-width: 990px) and (max-width: 1350px) {
+
+    /* about section */
+    #despre {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #despre h1 {
+        font-size: 65px;
+        text-align: center;
+    }
+
+    #despre img {
+        margin: 50px 0px 0px 0px;
+
+    }
+
+    #despre p {
+        font-size: 25px;
+        text-align: center;
+        padding: 25px 0px 0px 0px;
+    }
+
+    /* recommandation section */
+
+    #Recomandare {
+        padding: 80px 0px 80px 0px;
+        margin: 60px 0px 0px 0px;
+    }
+
+    .header h1 {
+        font-size: 45px;
+    }
+
+    .header-text {
+
+        font-size: 40px;
+
+    }
+
+    .main-text {
+        font-size: 25px;
+    }
+
+    .recomandation-container {
+        flex-wrap: wrap;
+    }
+
+    /* services section */
+    .services-header h1 {
+        font-size: 65px;
+        color: #ffb347;
+    }
+
+    .text-servicii {
+        font-size: 20px;
+        text-align: center;
+        align-items: center;
+        margin: 30px 0px 0px 0px;
+
+    }
+
+    .text-servicii p {
+        width: 88%;
+
+    }
+
+    .balon-1 {
+        opacity: 0.3;
+    }
+
+    .balon-2 {
+        opacity: 0.3;
+    }
+
+    /* Packets section */
+    .pachete-header h1 {
+        font-size: 55px;
+        text-align: center;
+        line-height: 1.2em;
+    }
+
+    #pachete p {
+        margin: 30px 0px 0px 0px;
+    }
+
+    /* The Magic */
+    .item-the-magic {
+        margin: 0px 80px 0px 80px;
+    }
+
+    .The-Magic-Text {
+
+        margin: 15px 10px 10px 10px;
+        padding: 0px 15px 15px 15px;
+    }
+
+}
+
+/* laptops and desktops max 1500px */
+@media only screen and (min-width: 1350px) and (max-width: 1500px) {
+
+    /* about section */
+
+
+    #despre p {
+        font-size: 22px;
+
+    }
+
+    /* recommandation section */
+
+    .header-text {
+
+        font-size: 30px;
+
+    }
+
+    .main-text {
+        font-size: 22px;
+    }
+
+    /* services section */
+    .balon-1 {
+        opacity: 0.5;
+    }
+
+    .balon-2 {
+        opacity: 0.5;
+    }
+
+
+
+}
+
+/* desktops 2k+ min width 2000px */
+@media only screen and (min-width: 2000px) {
+
+    /* nav */
+    .brand-title {
+        font-size: 35px;
+    }
+
+    .navbar-links li a {
+        font-size: 35px;
+    }
+
+    /* showcase buttons */
+
+    #showcase .button-pachete {
+        font-size: 25px;
+    }
+
+    #showcase .button-contact {
+        font-size: 25px;
+    }
+
+    /* abouse section */
+    #despre {
+        justify-content: center;
+    }
+
+    #despre h1 {
+        font-size: 80px;
+
+    }
+
+    #despre p {
+        font-size: 30px;
+
+    }
+
+    #despre img {
+
+        margin: 100px 0px 0px 100px;
+    }
+
+    /* Recomandation section*/
+
+    .header h1 {
+
+        font-size: 100px;
+
+    }
+
+    .header-text {
+
+        font-size: 60px;
+
+    }
+
+    .main-text {
+
+        font-size: 30px;
+
+    }
+
+    .services-header {
+
+        font-size: 100px;
+
+    }
+
+    .text-servicii {
+
+        font-size: 30px;
+
+    }
+
+    .services-container-row-1 img,
+    .services-container-row-2 img {
+
+        height: 150px;
+        width: 150px;
+    }
+
+    .icons-header {
+
+        font-size: 30px;
+
+    }
+
+    /* Packets section */
+    .pachete-header h1 {
+
+        font-size: 100px;
+
+    }
+
+    #pachete p {
+        font-size: 30px;
+        margin: 30px 0px 0px 0px;
+    }
+
+    .pachete-item-header {
+
+        font-size: 40px;
+
+    }
+
+    .pachete-main-list {
+        font-size: 25px;
+        padding-left: 60px;
+
+    }
+
+    .The-Magic-item-header {
+
+        font-size: 50px;
+
+    }
+
+    .The-Magic-Text {
+        font-size: 25px;
+
+
+    }
+
+    .button-pachete-download {
+        font-size: 25px;
+
+    }
+
+    /* gallery */
+    .galerie-header h1 {
+        font-size: 100px;
+    }
+
+    /* Reviews */
+    .recenzii-header h1 {
+        font-size: 100px;
+    }
+
+    .text-recenzie {
+
+        font-size: 20px;
+    }
+
+    .pic-user-recenzie {
+
+        width: 100px;
+        height: 100px;
+
+    }
+
+    .user-name {
+
+        font-size: 22px;
+    }
+
+    /* contact */
+    .fa {
+        width: 80px;
+        height: 80px;
+
+    }
+
+    #contact .fa::before {
+        font-size: 40px;
+    }
+
+    .social-menu img {
+        width: 80px;
+        height: 80px;
+
+
+    }
+
+    /* footer */
+    .col-1 img {
+        width: 250px;
+        height: 180px;
+    }
+
+    .col-1 p {
+
+        font-size: 22px;
+
+    }
+    .col-2{
+        min-width: 400px;
+    }
+
+    .col-2 h1,
+    .col-3 h1 {
+        font-size: 30px;
+        
+
+    }
+
+    .col-2 p{
+    
+        font-size: 20px;
+
+    }
+
+    .col-3 p {
+        font-size: 22px;
+        padding-top: 22px;
+    }
+
 }

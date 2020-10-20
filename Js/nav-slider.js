@@ -1,4 +1,4 @@
-// When the user scrolls down 80px from the top of the document, resize the navbar's padding 
+// When the user scrolls down 120px from the top of the document, resize the navbar's padding 
 window.onscroll = function () {
   scrollFunction()
 };
