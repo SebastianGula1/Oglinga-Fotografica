@@ -6,7 +6,7 @@
 
 body {
     margin: 0;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Ubuntu', 'Poppins',  sans-serif;
 }
 
 /* navigatie */
@@ -22,7 +22,6 @@ body {
     position: sticky;
     top: 0;
     background-color: #ffffff;
-    font-family: 'Dancing Script', cursive;
     transition: 0.4s all ease;
     padding: 30px 10px;
     flex-flow: row wrap;
@@ -33,12 +32,15 @@ body {
 nav span {
     color: #ff8c00;
 }
-.brand-title {
+
+.brand-title  {
     cursor: pointer;
     color: #23272a;
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 550;
-}
+} 
+
+
 
 .navbar-links {
     height: 100%;
@@ -58,7 +60,7 @@ nav span {
     display: block;
     text-decoration: none;
     font-weight: 550;
-    font-size: 25px;
+    font-size: 22px;
     color: #23272a;
     padding: 1rem;
 }
@@ -345,12 +347,21 @@ nav span {
     font-weight: 600;
 }
 
-.pachete-header,
-.galerie-header,
-.recenzii-header {
+
+.galerie-header h1,
+.recenzii-header h1 {
     display: flex;
     justify-content: center;
-    font-size: 50px;
+    font-size: 90px;
+    font-weight: 600;
+    color: #ffb347;
+    line-height: 1.4em;
+    text-shadow: 0.08em 0.08em 0.08em rgba(0, 0, 0, 0.4);
+}
+.pachete-header h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 90px;
     font-weight: 600;
     color: #ffb347;
     line-height: 1.4em;
@@ -382,6 +393,9 @@ nav span {
     box-shadow: 0px 18px 18px 0px rgba(0, 0, 0, 0.4);
     padding-bottom: 30px;
     margin: 30px;
+    max-width: 480px;
+    max-height: 519px;
+    
 
 }
 
@@ -392,6 +406,8 @@ nav span {
     border-top-color: #69e284;
     box-shadow: 0px 18px 18px 0px rgba(0, 0, 0, 0.4);
     margin: 30px;
+    max-width: 480px;
+    max-height: 519px;
 }
 
 .item-7-ore {
@@ -401,6 +417,9 @@ nav span {
     border-top-color: #69e284;
     box-shadow: 0px 18px 18px 0px rgba(0, 0, 0, 0.4);
     margin: 30px;
+    max-width: 480px;
+    max-height: 519px;
+
 }
 
 .item-the-magic {
@@ -448,6 +467,7 @@ nav span {
     letter-spacing: 1px;
     line-height: 1.7em;
     padding: 0px 30px 30px 30px;
+    text-align: center;
 }
 
 .The-Magic-main-list {
@@ -786,6 +806,7 @@ nav span {
 .text-recenzie {
     padding: 20px;
     font-size: 15px;
+    font-family: 'Poppins',  sans-serif;
 }
 
 .pic-user-recenzie {
