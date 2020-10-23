@@ -788,6 +788,28 @@
     }
 
     /* Packets section */
+
+    .item-3-ore {
+
+
+        max-width: 700px;
+        min-height: 787px;
+
+
+    }
+
+    .item-5-ore {
+        max-width: 700px;
+        max-height: 900px;
+    }
+
+    .item-7-ore {
+
+        max-width: 700px;
+        max-height: 900px;
+
+    }
+
     .pachete-header h1 {
 
         font-size: 100px;
@@ -806,7 +828,7 @@
     }
 
     .pachete-main-list {
-        font-size: 25px;
+        font-size: 30px;
         padding-left: 60px;
 
     }
@@ -884,19 +906,20 @@
         font-size: 22px;
 
     }
-    .col-2{
+
+    .col-2 {
         min-width: 400px;
     }
 
     .col-2 h1,
     .col-3 h1 {
         font-size: 30px;
-        
+
 
     }
 
-    .col-2 p{
-    
+    .col-2 p {
+
         font-size: 20px;
 
     }
