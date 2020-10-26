@@ -6,14 +6,14 @@
 
 body {
     margin: 0;
-    font-family: 'Ubuntu', 'Poppins',  sans-serif;
+    font-family: 'Ubuntu', 'Poppins', sans-serif;
 }
 
 /* navigatie */
 .navbar {
     display: flex;
     position: relative;
-    justify-content: space-evenly;    
+    justify-content: space-evenly;
     align-items: center;
     background-color: #333;
     color: white;
@@ -26,19 +26,21 @@ body {
     padding: 30px 10px;
     flex-flow: row wrap;
 }
-.navbar a{
+
+.navbar a {
     text-decoration: none;
 }
+
 nav span {
     color: #ff8c00;
 }
 
-.brand-title  {
+.brand-title {
     cursor: pointer;
     color: #23272a;
     font-size: 20px;
     font-weight: 550;
-} 
+}
 
 
 
@@ -70,10 +72,10 @@ nav span {
     background: black;
 }
 
-.toggle-button{
+.toggle-button {
     position: absolute;
-    top: 1.5rem;
-    right:1rem;
+    top: 1.3rem;
+    right: 1rem;
     display: none;
     flex-direction: column;
     justify-content: space-between;
@@ -81,7 +83,7 @@ nav span {
     height: 21px;
 }
 
-.toggle-button .bar{
+.toggle-button .bar {
     height: 3px;
     width: 100%;
     background-color: black;
@@ -180,7 +182,7 @@ nav span {
 }
 
 #despre p {
-    font-size: 25px;
+    font-size: 27px;
     align-items: center;
     max-width: 800px;
     color: #696969;
@@ -358,6 +360,7 @@ nav span {
     line-height: 1.4em;
     text-shadow: 0.08em 0.08em 0.08em rgba(0, 0, 0, 0.4);
 }
+
 .pachete-header h1 {
     display: flex;
     justify-content: center;
@@ -395,7 +398,7 @@ nav span {
     margin: 30px;
     max-width: 480px;
     max-height: 519px;
-    
+
 
 }
 
@@ -425,7 +428,7 @@ nav span {
 .item-the-magic {
     border-radius: 25px 25px 25px 25px;
     background: linear-gradient(180deg, #ffb347 0%, #f5bc83 100%);
-  
+
     overflow: hidden;
     border-top-color: #69e284;
     box-shadow: 0px 18px 18px 0px rgba(0, 0, 0, 0.4);
@@ -470,6 +473,12 @@ nav span {
     text-align: center;
 }
 
+.item-3-ore,
+.item-5-ore,
+.item-7-ore {
+    max-height: 600px;
+}
+
 .The-Magic-main-list {
     display: flex;
     justify-content: center;
@@ -503,6 +512,31 @@ nav span {
 
 }
 
+.The-Magic-images img {
+    flex: 1;
+    width: 100%;
+    height: 500px;
+    border-radius: 30px;
+    margin: 20px;
+}
+
+#fundal-verde {
+    width: 163px;
+
+}
+
+#fundal-paris {
+    width: 163px;
+
+}
+
+.The-Magic-images {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    flex-wrap: wrap;
+}
+
 .The-Magic-button {
     display: flex;
     justify-content: center;
@@ -531,8 +565,8 @@ nav span {
     width: 100%;
     margin: 150px 0px 0px 0px;
     padding: 50px 50px 50px 50px;
-    
-   
+
+
 }
 
 .galerie-container {
@@ -780,7 +814,7 @@ nav span {
 #recenzii {
     width: 100%;
     padding: 50px 50px 50px 50px;
-  
+
 }
 
 #recenzii p {
@@ -806,7 +840,7 @@ nav span {
 .text-recenzie {
     padding: 20px;
     font-size: 15px;
-    font-family: 'Poppins',  sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 .pic-user-recenzie {
@@ -893,72 +927,79 @@ nav span {
     border-radius: 50%;
 
 }
+
 /* footer */
-#footer{
+#footer {
     width: 100%;
-    padding:20px;
+    padding: 20px;
     background-color: #fbdcae;
 }
-.footer-container{
+
+.footer-container {
     display: flex;
     justify-content: center;
     align-items: center;
     align-content: center;
 
 }
-#footer a{
+
+#footer a {
     text-decoration: none;
 }
-.col-1 img{
-    width:150px;
+
+.col-1 img {
+    width: 150px;
     height: 100px;
 }
 
-.col-1 p{
+.col-1 p {
 
     font-size: 18px;
     font-weight: 500;
     line-height: 1.4em;
     text-align: left;
-    color: #383838;}
-
-.col-1, .col-2, .col-3{
-    width:350px;
-    margin:20px;
+    color: #383838;
 }
-.col-2{
+
+.col-1,
+.col-2,
+.col-3 {
+    width: 350px;
+    margin: 20px;
+}
+
+.col-2 {
     display: flex;
     flex-direction: column;
 }
 
-.col-2 h1, .col-3 h1{
+.col-2 h1,
+.col-3 h1 {
     font-size: 20px;
     font-weight: 600;
     color: #383838;
     font-style: bold;
 
 }
-.col-2, .col-3 p{
+
+.col-2,
+.col-3 p {
     font-size: 17px;
     font-weight: 500;
-    color: #383838;    
+    color: #383838;
 
 }
 
-.col-3 h1{
+.col-3 h1 {
     margin-left: 15px;
 }
 
-.col-3 p{
-    margin:15px;
+.col-3 p {
+    margin: 15px;
 }
 
-#footer .fa{
-    color:black;
+#footer .fa {
+    color: black;
     font-size: 25px;
     margin: -5px 0px -5px 0px;
 }
-
-
-
-

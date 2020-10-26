@@ -214,6 +214,20 @@
     .item-the-magic {
         margin: 0px 30px 0px 30px;
     }
+    .The-Magic-images img{
+      
+        
+        height: 300px;
+        
+    }
+    #fundal-verde{
+        width: 150px;
+       
+    }
+    #fundal-paris{
+        width: 150px;
+        
+    }
 
     /* gallery */
     #galerie {
@@ -375,6 +389,20 @@
 
         margin: 15px 10px 10px 10px;
         padding: 0px 15px 15px 15px;
+    }
+    .The-Magic-images img{
+      
+        height: 500px;
+      
+       
+    }
+    #fundal-verde{
+        width: 200px;
+       
+    }
+    #fundal-paris{
+        width: 200px;
+        
     }
 
     /* Galery section */
@@ -671,7 +699,7 @@
 
 
     #despre p {
-        font-size: 22px;
+        font-size: 25px;
 
     }
 
