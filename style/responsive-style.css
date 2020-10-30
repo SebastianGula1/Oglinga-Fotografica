@@ -383,6 +383,7 @@
     /* The Magic */
     .item-the-magic {
         margin: 0px 40px 0px 40px;
+        max-width: 500px;
     }
 
     .The-Magic-Text {
