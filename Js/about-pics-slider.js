@@ -3,9 +3,9 @@ var images = [];	// Images Array
 var time = 3000;	// Time Between Switch
 	 
 // Image List
-images[0] = "./images/Despre/rsz_about1.jpg"
-images[1] = "./images/Despre/about2.jpg";
-images[2] = "./images/Despre/about3.jpg";
+images[0] = "./images/Despre/rsz_about1-min.jpg"
+images[1] = "./images/Despre/about2-min.jpg";
+images[2] = "./images/Despre/about3-min.jpg";
 
 // Change Image
 function changeImg(){

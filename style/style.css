@@ -35,11 +35,11 @@ nav span {
     color: #ff8c00;
 }
 
-.brand-title {
+.brand-title img {
     cursor: pointer;
-    color: #23272a;
-    font-size: 20px;
-    font-weight: 550;
+    width: 150px;
+    height: 80px;
+   
 }
 
 
@@ -74,7 +74,7 @@ nav span {
 
 .toggle-button {
     position: absolute;
-    top: 1.3rem;
+    top: 2.6rem;
     right: 1rem;
     display: none;
     flex-direction: column;
