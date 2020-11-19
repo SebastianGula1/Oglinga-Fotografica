@@ -23,7 +23,7 @@ body {
     top: 0;
     background-color: #ffffff;
     transition: 0.4s all ease;
-    padding: 30px 10px;
+    padding: 20px 10px;
     flex-flow: row wrap;
 }
 
@@ -38,7 +38,7 @@ nav span {
 .brand-title img {
     cursor: pointer;
     width: 150px;
-    height: 80px;
+    height: 70px;
    
 }
 
@@ -108,7 +108,7 @@ nav span {
 /* background image */
 
 #showcase {
-    background-image: url("../images/Fundal/hero8.jpg");
+    background-image: url("../images/Fundal/hero1.png");
     background-size: cover;
     background-position: center;
     width: 100%;

@@ -10,6 +10,6 @@ function scrollFunction() {
     document.getElementById("nav").style.padding = "10px 10px";
 
   } else if (document.body.scrollTop <= 60 || document.documentElement.scrollTop <= 60) {
-    document.getElementById("nav").style.padding = "30px 10px";
+    document.getElementById("nav").style.padding = "20px 10px";
   }
 }

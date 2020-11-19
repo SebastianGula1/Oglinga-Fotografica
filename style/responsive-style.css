@@ -45,6 +45,11 @@
 
     }
 
+    .brand-title img{
+        width: 130px;
+        height: 60px;
+    }
+
     /* showcase buttons */
 
     .buttons {
