@@ -1049,3 +1049,9 @@ nav span {
 .box-1{
     padding-top: 80px;
 }
+
+.box-12 a{
+    text-decoration: none;
+    color: #444;
+    text-decoration: underline;
+}

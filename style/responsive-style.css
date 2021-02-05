@@ -294,6 +294,9 @@
     .col-3 p {
         font-size: 14px;
     }
+    .title-header h1{
+        text-align: center;
+        }
 }
 
 /* landscape tablets max 761px */
@@ -453,6 +456,12 @@
     .col-3 p {
         padding-top: 9px;
     }
+    .title-header h1{
+    text-align: center;
+    }
+    #text-area{
+        max-width: 650px;
+    }
 }
 
 /* landscape tablets max 990px */
@@ -595,6 +604,10 @@
         padding-top: 10px;
     }
 
+    #text-area{
+        max-width: 800px;
+    }
+
 }
 
 /* small laptops  max 1350px */
@@ -694,6 +707,10 @@
 
         margin: 15px 10px 10px 10px;
         padding: 0px 15px 15px 15px;
+    }
+
+    #text-area{
+        max-width: 1000px;
     }
 
 }
